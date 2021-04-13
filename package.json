@@ -13,5 +13,8 @@
     "live-server": "1.2.1",
     "postcss-cli": "8.3.1",
     "tailwindcss": "2.x"
-  }
+  },
+  "keywords": [],
+  "name": "tailwind-css-playground",
+  "description": ""
 }
