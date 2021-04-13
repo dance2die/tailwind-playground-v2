@@ -1,53 +1,13 @@
 # Tailwind CSS Playground
 
-A simple starter project for playing around with Tailwind in a proper PostCSS environment.
+Official Sandbox template repository, [tailwindlabs/tailwindcss-playground](https://github.com/tailwindlabs/tailwindcss-playground) has been arhived as it was using Taiwlind CSS v1.x
 
-To get started:
+This template uses Tailwind CSS v2.x
 
-1. Clone the repository:
+## JIT Mode
 
-    ```bash
-    git clone https://github.com/tailwindcss/playground.git tailwindcss-playground
+You can enable [Just-in-Time](https://tailwindcss.com/docs/just-in-time-mode#enabling-jit-mode) ("JIT") mode in `tailwind.config.js` but I couldn't get it working stably.
 
-    cd tailwindcss-playground
-    ```
+## Source Code Repostory
 
-2. Install the dependencies:
-
-    ```bash
-    # Using npm
-    npm install
-
-    # Using Yarn
-    yarn
-    ```
-
-3. Start the development server:
-
-    ```bash
-    # Using npm
-    npm run serve
-
-    # Using Yarn
-    yarn run serve
-    ```
-
-    Now you should be able to see the project running at localhost:8080.
-
-4. Open `public/index.html` in your editor and start experimenting!
-
-## Building for production
-
-Even though this isn't necessarily a starter kit for a proper project, we've included an example of setting up both [Purgecss](https://www.purgecss.com/) and [cssnano](https://cssnano.co/) to optimize your CSS for production.
-
-To build an optimized version of your CSS, simply run:
-
-```bash
-# Using npm
-npm run production
-
-# Using Yarn
-yarn run production
-```
-
-After that's done, check out `./public/build/tailwind.css` to see the optimized output.
+https://github.com/dance2die/tailwind-playground-v2
